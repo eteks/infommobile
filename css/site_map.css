@@ -1,0 +1,263 @@
+ /* site map design */ 
+.main{
+  
+    background-size: 1280px 1712px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     overflow-y: scroll;
+}
+body{
+  overflow-x: hidden; 
+}
+.topic{
+  
+  position: absolute;
+  top:10px;
+  left: 45px;
+
+}
+.r{
+
+  position: absolute;
+  top: 45px;
+  left: 207px;
+}
+
+
+.text{
+  font-family: Shruti;
+  font-size: 32px;
+
+}
+
+.main a {
+  text-decoration: none;
+  color: black; 
+}
+.menu{
+  height: 132px;
+  width: 217px;
+  position: absolute;
+  top:10px;
+  left: 1230px;
+
+}
+.one{
+  height: 328px;
+  width: 700px;
+  position: absolute;
+  top:151px;
+  left: 276px;
+  
+}
+.img1{
+  margin-top: 28px;
+}
+.two{
+  height: 428px;
+  width: 450px;
+  position: absolute;
+  top:432px;
+  left: 276px;
+  
+}
+.three{
+  height: 300px;
+  width: 800px;
+  position: absolute;
+  top:923px;
+  left: 276px;
+  
+}
+.four{
+  height: 300px;
+  width: 230px;
+  position: absolute;
+  top:1441px;
+  left: 275px;
+  
+}
+.about{
+  position: absolute;
+  top:140px;
+  left: -130px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.ino{
+  position: absolute;
+  top:280px;
+  left: -195px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+
+.concepts{
+  position: absolute;
+  top:230px;
+  left: -250px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.reach{
+  position: absolute;
+  top:230px;
+  left: -130px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.bio{
+  position: absolute;
+  top:40px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.client{
+  position: absolute;
+  top:143px;
+  left: 328px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.exp{
+  position: absolute;
+  top:250px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.img2{
+  position: absolute;
+  left: 416px;
+  top: 238px;
+
+}
+.str{
+  position: absolute;
+  top:127px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.adv{
+  position: absolute;
+  top:225px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.team{
+  position: absolute;
+  top:330px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.join{
+  position: absolute;
+  top:420px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.port{
+  position: absolute;
+  top:85px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.ser{
+  position: absolute;
+  top:245px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.pro{
+  position: absolute;
+  top:480px;
+  left: 325px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.list li{
+  position: absolute;
+  top:245px;
+  left: 142px;
+  font-family: Century Gothic;
+  font-size: 18px;
+}
+.right{
+  position: absolute;
+  top:155px;
+  left: 540px;
+  font-family: Century Gothic;
+  font-size: 18px;
+  width: 159px;
+  height: 241px;
+  line-height: 31px;
+}
+.line2{
+  position: absolute;
+  top:77px;
+  left: 415px;
+}
+.select{
+  position: absolute;
+  top:85px;
+  left: 677px;
+}
+.line3{
+  position: absolute;
+  top:233px;
+  left: 415px;
+}
+.list2 li{
+  position: relative;
+  top:-384px;
+  left: 520px;
+  font-family: Century Gothic;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.get{
+  position: absolute;
+  top:472px;
+  left: 415px;
+}
+
+.hit{
+  position: relative;
+  top:-356px;
+  left: 624px;
+  width: 350px;
+  font-family: Century Gothic;
+  font-size: 18px;
+  width: 370px;
+  line-height: 18px;
+  
+}
+
+.sub_list {  
+    margin: 0.75em 0;  
+    padding: 0 2em;  
+    list-style: none;  
+}  
+
+.sub_list li:before {   
+    content: "";  
+    border-color: transparent black;  
+    border-style: solid;  
+    border-width: 0.35em 0 0.35em 0.45em;  
+    display: block;  
+    height: 0;  
+    width: 0;  
+    left: -1em;  
+    top: 0.9em;  
+    position: relative;  
+    padding-left: 10px;
+} 
+/* end site map */
