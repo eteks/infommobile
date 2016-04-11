@@ -108,8 +108,7 @@ $(document).ready(function(){
 
     });
     $('.biography-map').on('click', function(){
-    	alert('test');
-        $.cookie('biograph', '1');
+    	$.cookie('biograph', '1');
     });
     $('.client-map').on('click', function(){
         $.cookie('clientspeak', '2');
@@ -147,7 +146,18 @@ $(document).ready(function(){
     $('.analytics-map').on('click', function(){
         $.cookie('analytics', '13');
     });
-
+	//For mobile
+	// $(".section1_mbl,.section2_mbl,.section3_mbl,.expert-mobile").hide();
+	// $('.biography-map-mbl').on('click', function(){
+    	// $.cookie('biograph_mbl', '14');
+//     	
+    	// $(".section2_mbl").show();
+    	// alert('test'+$(".section2_mbl").html());
+    	 // $(".section2_mbl").addClass('bio_mbl_content');
+        // $(".section1_mbl,.section3_mbl,.expert-mobile").hide();
+//     	
+//         
+    // });
 
 
     $("#menu-toggle").click(function(e) {
@@ -397,7 +407,7 @@ $(document).ready(function(){
         // var duration = 500;
         $('.expert-mobile section').show();
     });
-
+	
  
     $('.iocd_mobile').on('click', function(){
         $('.popup_fade_mobile').show();

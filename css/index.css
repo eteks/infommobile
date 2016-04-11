@@ -4423,7 +4423,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -4545,7 +4545,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e7e7e7;
   color: #555;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
   }
@@ -4641,7 +4641,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #080808;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -6542,7 +6542,7 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .visible-xs {
     display: block !important;
   }
@@ -6557,17 +6557,17 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .visible-xs-block {
     display: block !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
@@ -11828,7 +11828,7 @@ a:focus {
     top: -25px;
 }
 .expertise_content li {
-    float: left;
+    float: none;
     width: 130px;
     height: 20px;
 }
@@ -11840,7 +11840,7 @@ a:focus {
   }
 }
 .expertise_content {
-    padding: 10px 0px 20px 40px;
+    padding: -1px 0px 20px 40px;
 }
 .clr_font a {
     color: #040404;
@@ -12323,7 +12323,7 @@ html.fp-enabled, .fp-enabled body {
 }
 .sitemap_content{
   margin-top: 90px;
-  height: 927px;
+  height: 970px;
 }
 @media (min-width: 768px){
   .sitemap_content{
@@ -12340,6 +12340,7 @@ html.fp-enabled, .fp-enabled body {
 .inner_menu_act {
     height: 60px;
 }
+
 /* site map design */ 
 .main{
   

@@ -101,7 +101,7 @@
               overflow-y: auto;
               padding: 10px;
               position: relative;
-              top: -80px;
+              top: 0px;
             }
             @media (min-width: 768px){
             .mcusheight{
@@ -482,7 +482,7 @@
             <div class="popup-content">
                 <h3><code class="erp_img"></code>ERP for Retail sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Efficient - With Barcode scanners and touch screen interfaces the sales can be Processed quickly and efficiently</li>
                             <li>Easy to Learn – No expensive training for staff, it's as easy to learn</li>
@@ -507,7 +507,7 @@
             <div class="popup-content">
                 <h3><code class="pos_img"></code>Retail POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Easy & Fast Billing with Accuracy</li>
                             <li>Multiple bill handling</li>
@@ -533,7 +533,7 @@
             <div class="popup-content">
                 <h3><code class="erp_manufacture_img"></code>ERP  for Manufacturing sector</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Covers the complete workflow of a manufacturing company.</li>
                             <li>Software designed to manage groups of companies with single management.</li>
@@ -559,7 +559,7 @@
             <div class="popup-content">
                 <h3><code class="ekads_img"></code>e-Kads</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Separate dash board for Management, Staff and Parents</li>
                             <li>Create a master of Campus Management, Board/Syllabus Management</li>
@@ -603,7 +603,7 @@
             <div class="popup-content">
                 <h3><code class="hrms_img"></code>HRMS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>A system catering to computation of payrolls including preparation of pay slips, payroll registers including appropriate computation of income taxes based earnings.</li>
                             <li>The system has full-fledged features of tax based backing of the payroll system.</li>
@@ -628,7 +628,7 @@
             <div class="popup-content">
                 <h3><code class="restaurant_img"></code>Restaurant POS</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Ideal for all catering services being it a pizzeria, fast food, bar, etc.</li>
                             <li>Take away, Delivery and retail options are all included in one.</li>
@@ -650,7 +650,7 @@
             <div class="popup-content">
                 <h3><code class="ret_commerce_img"></code>Retail e-commerce</h3>
                 <div class="content mCustomScrollbar mcusheight" >
-                    <div class="col-md-6">
+                    <div class="col-md-6 list__popup">
                         <ul>
                             <li>Standards-compliant, fully customizable templates</li>
                             <li>Easy to add, list, edit, and organize products using our streamlined  interface</li>
@@ -729,7 +729,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="bio-mbl"><span data-hover="Portfolio">Portfolio</span></a>
+                                                        <a href="concepts2life.php" class="bio-mbl"><span data-hover="Portfolio">Portfolio</span></a>
                                                     </nav>
                                                 </section>
                                             </h3>
@@ -742,7 +742,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="client-mbl"><span data-hover="Services">Services</span></a>
+                                                        <a href="services.php" class="client-mbl"><span data-hover="Services">Services</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -754,13 +754,13 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="expertise-mbl"><span data-hover="Products">Products</span></a>
+                                                        <a href="products.php" class="expertise-mbl"><span data-hover="Products">Products</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
                                     </h2>
                                 </div><!--submenu3-->
-                            <div class="menu-hide col-xs-12">
+                            <div class="menu-hide">
                                 <img src="images/close_mobile.png" class="img-responsive close_menu">
                             </div><!--menu-hide-->
                         </div><!--menu-mbl-->

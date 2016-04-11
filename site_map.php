@@ -112,7 +112,7 @@
                             </b>
                         </p>
                         <p class="bio">
-                            <a href="aboutus.php" class="biography-map hidden-xs font_active" target="_blank">Biography</a>
+                            <a href="aboutus.php" target="_blank" class="biography-map font_active" target="_blank">Biography</a>
                             <!-- <a href="aboutus.php" class="hidden-lg biography-map-mobile font_active" target="_blank">Biography</a> -->
                         </p>
                         <p class="client">
@@ -193,39 +193,38 @@
                 <div class="col-md-12 clr_font">
                     <h4><a href="aboutus.php" target="_blank" class="font_active">About us</a></h4>
                     <div class="col-md-2">
-                        <a href="aboutus.php" class="biography-map hidden-xs font_active" target="_blank">Biography</a>
-                        <a href="aboutus.php" class="hidden-lg biography-map-mobile font_active" target="_blank">Biography</a>
-                    </div>
+                        <a href="aboutus.php" class="biography-map-mbl font_active">Biography</a>
+                     </div>
                     <div class="col-md-2">
-                        <a href="aboutus.php" class="client-map font_active" target="_blank">Client speak</a>
+                        <a href="aboutus.php" class="client-map-mbl font_active" target="_blank">Client speak</a>
                     </div>
                     <div class="col-md-8">
-                        <a href="aboutus.php" class="expertise-map font_active" target="_blank">Expertise</a>
+                        <a href="aboutus.php" class="expertise-map-mbl font_active" target="_blank">Expertise</a>
                         <ul class="expertise_content">
-                            <li><a href="aboutus.php" class="web-map font_active" target="_blank">Web</a></li>
-                            <li><a href="aboutus.php" class="apps-map font_active" target="_blank">Apps</a></li>
-                            <li><a href="aboutus.php" class="learn-map font_active" target="_blank">e-Learning</a></li>
-                            <li><a href="aboutus.php" class="infra-map font_active" target="_blank">Infrastructure</a></li>
-                            <li><a href="aboutus.php" class="digital-map font_active" target="_blank">Digital Marketing</a></li>
+                            <li><a href="aboutus.php" class="web-map-mbl font_active" target="_blank">Web</a></li>
+                            <li><a href="aboutus.php" class="apps-map-mbl font_active" target="_blank">Apps</a></li>
+                            <li><a href="aboutus.php" class="learn-map-mbl font_active" target="_blank">e-Learning</a></li>
+                            <li><a href="aboutus.php" class="infra-map-mbl font_active" target="_blank">Infrastructure</a></li>
+                            <li><a href="aboutus.php" class="digital-map-mbl font_active" target="_blank">Digital Marketing</a></li>
                         </ul>
                         <ul>
-                            <li><a href="aboutus.php" class="analytics-map font_active" target="_blank">Analytics & Information Management Solutions</a></li>
+                            <li><a href="aboutus.php" class="analytics-map-mbl font_active" target="_blank">Analytics & Information Management Solutions</a></li>
                         </ul>
                     </div>
                 </div><!--col-md-12-->
                 <div class="col-md-12 clr_font">
                     <h4><a href="innovation.php" target="_blank" class="font_active">Innovation Hub</a></h4>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="strategists-map font_active" target="_blank">Strategists</a>
+                        <a href="innovation.php" class="strategists-map-mbl font_active" target="_blank">Strategists</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="advisories-map font_active" target="_blank">Advisories</a>
+                        <a href="innovation.php" class="advisories-map-mbl font_active" target="_blank">Advisories</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="team-map font_active" target="_blank">Team</a>
+                        <a href="innovation.php" class="team-map-mbl font_active" target="_blank">Team</a>
                     </div>
                     <div class="col-md-2">
-                        <a href="innovation.php" class="join-map font_active" target="_blank">Join Our Hub</a>
+                        <a href="innovation.php" class="join-map-mbl font_active" target="_blank">Join Our Hub</a>
                     </div>
                 </div>
                 <div class="col-md-12 clr_font">
@@ -287,7 +286,7 @@
                     </div>
                 </div>
         </div>
-       
+     
         <script src="js/three.min.js"></script>
 
         <script src="js/renderers/Projector.js"></script>
@@ -479,6 +478,7 @@
                 // $(".tagline3").letterfx({"fx":"fall","words":true,"timing":500});
             });
         </script>
+       
         </div><!-- overflow_hidden -->
     </body>
 </html>

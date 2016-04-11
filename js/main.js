@@ -97,7 +97,9 @@ jQuery(document).ready(function($){
              if ($.cookie('analytics')){
                  section4();
             }
-
+			// if ($.cookie('biograph_mbl')){
+                // section2();
+            // }
             $(document).on('keydown', function(event){
                 if( event.which=='40' && nextArrow.hasClass('inactive') ) {
                     $(document).keydown(false);
