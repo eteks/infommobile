@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1" , user-scalable='no'>
         <title>Infom Atomicka (TECH) Pvt Ltd</title>
         <link rel="icon" href="images/favicon-32x32.png"/>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -16,6 +16,7 @@
         <link href="css/index.css" rel="stylesheet" type="text/css">
         <!-- <link href="css/index.css" rel="stylesheet" type="text/css"/> -->
         <script src="js/jquery-2.2.0.js" type="text/javascript"></script>
+        <script src="http://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/jquery-mobile-touch.value.js"></script>
         <script src="js/jquery.cookie.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <!-- <script src="js/less.js" type="text/javascript"></script> -->
@@ -24,6 +25,7 @@
         <script src="js/jquery.textillate.js" type="text/javascript"></script>
         <script src="js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
         <script src="js/action.js" type="text/javascript"></script>
+        
         <style>
             body {
                 /*background-color: #000000;*/
@@ -200,8 +202,8 @@
         </script>
 
         <header>
-            <div class="col-md-11 col-xs-12 header_menu">
-                <div class="col-md-9 col-xs-6">
+            <div class="col-md-11 col-xs-12 header_menu col-sm-12">
+                <div class="col-md-9 col-sm-9 col-xs-6">
                     <h1>
                         <a href="index.php">Infom Atomicka<sup>®</sup></a>
                     </h1>

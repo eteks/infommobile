@@ -15,7 +15,12 @@
 
 }
 header {
-  height:200px;
+  height:165px;
+}
+@media (min-width: 768px){
+	header {
+  		height:200px;
+	}
 }
 html {
   font-family: sans-serif;
@@ -6851,7 +6856,7 @@ button.close {
   line-height: 55px;
   height: 90px;
   margin-top: -50px;
-  font-size: 45px;
+  font-size: 28px;
   width: 100%;
   text-align: center;
   color: transparent;
@@ -7039,7 +7044,7 @@ button.close {
 
 .bt-menu.bt-menu-open {
   z-index: 9999;
-  height: 94%;
+  height: 100%;
   border-width: 0px 300px 0px 0px;
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-transition: border-width 0.3s;
@@ -7256,7 +7261,7 @@ button.close {
 }
 #bt-menu p {
   font-family: century gothic;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 2;
   height: 25px;
 }
@@ -7269,8 +7274,14 @@ button.close {
   }
 }
 .home_menu_address {
-  height: 99px;
+  height: 40px;
   margin: 20px 0 0;
+}
+@media (min-width: 768px){
+	.home_menu_address {
+	  height: 99px;
+	  margin: 20px 0 0;
+	}
 }
 .home_menu_address h1 {
   padding-bottom: 10px;
@@ -7294,6 +7305,17 @@ button.close {
 .home_menu_mail,
 .home_menu_terms {
   height: 35px;
+  position: relative;
+  top: 70px;
+}
+@media (min-width: 768px){
+	.home_menu_phone,
+	.home_menu_mail,
+	.home_menu_terms {
+  		height: 35px;
+  		position: relative;
+  		top: auto;
+	}
 }
 .home_menu_terms {
     height:44px !important;
@@ -8808,7 +8830,7 @@ input[readonly] {
 /*---------------------------End Bio graphy page-------------------------*/
 /*--------------Start innovation page------------------------------*/
 .section_holder_innovation {
-  background: url('../images/crew.jpg') no-repeat center center;
+  background: transparent;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9221,9 +9243,9 @@ input[readonly] {
 }
 #slect {
   cursor: pointer;
-  left: 0px;
+  left: auto;
   position: relative;
-  right: 120px;
+  right: auto;
   top: 20px;
   height: 100px;
 }
@@ -9264,7 +9286,7 @@ input[readonly] {
   margin: 15px 0 0;
 }
 #left1 {
-  background: url(../images/testimonials.jpg) no-repeat;
+  background: transparent;
   background-size: 365px;
   width: 108%;
   position: relative;
@@ -9445,9 +9467,17 @@ input[readonly] {
 }
 .join_content {
   font-family: Century Gothic;
-  font-size: 15px;
+  font-size: 11px;
   line-height: 2;
   text-align: justify;
+}
+@media (min-width: 768px){
+	.join_content {
+	  font-family: Century Gothic;
+	  font-size: 15px;
+	  line-height: 2;
+	  text-align: justify;
+	}
 }
 .join_note {
   margin-top: 5px;
@@ -9515,7 +9545,7 @@ input[readonly] {
   padding: 0 !important;
   position: relative;
   width: 100%;
-  height: 83.5%;
+  height: 160%;
 }
 @media (min-width: 768px){
   .bg_clr {
@@ -10038,7 +10068,7 @@ hr {
 .content_heading_holder_port {
   position: relative;
   top: 0;
-  width: 270px;
+  width: 100%;
   z-index: 9999;
 }
 @media (min-width: 768px) {
@@ -10325,7 +10355,7 @@ input[type="checkbox"] {
 }
 }
 #slect img {
-    left: 290px;
+    left: 169px;
     position: absolute;
     top: 0;
 }
@@ -10386,8 +10416,18 @@ input[type="checkbox"] {
     left: -100px;
     color: #fff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 10px;
 
+}
+@media (min-width: 768px){
+	.enter_menu {
+	    position: absolute;
+	    top: 18%;
+	    left: -100px;
+	    color: #fff;
+	    cursor: pointer;
+	    font-size: 14px;
+	}
 }
 .products_common_info,.products_common_info p{
     font-family: "Century Gothic" !important;
@@ -10671,7 +10711,7 @@ input[type="checkbox"] {
     text-align: center;
     top: 5px;
     width: 100%;
-    font-size: 12px;
+    font-size: 11px;
 }
 @media (min-width: 768px){
   .small_menu{
@@ -10681,6 +10721,14 @@ input[type="checkbox"] {
     top: 0px;
     font-size: 14px;
   }
+}
+.home_menu_terms {
+    height: 90px !important;
+}
+@media (min-width: 768px){
+	.home_menu_terms {
+    	height: auto !important;
+	}	
 }
 .input__field--madoka {
     background: transparent n/one repeat scroll 0 0;

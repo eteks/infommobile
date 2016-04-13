@@ -1179,51 +1179,29 @@
                         <li><a href="#sec3" class="hvr-buzz-out expertise_act_click">Expertise</a></li>
                     </ul>
                 </div>
-                <div class="bio_menu_mbl col-sm-12 col-md-12 col-lg-12 col-xs-12 hidden-lg">
-                    <div class="inner_menu_act"><img src="images/menu.png" class="img-responsive menu_btn"/></div>
-                        <div class="menu-mbl">
-                             <div class="submenu1">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="bio-mbl"><span data-hover="Biography">Biography</span></a>
-                                                    </nav>
-                                                </section>
-                                            </h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu1-->
-                                <div class="submenu2">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="client-mbl"><span data-hover="Clients speak">Clients speak</span></a>
-                                                    </nav>
-                                                </section></h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu2-->
-                                <div class="submenu3">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#" class="expertise-mbl"><span data-hover="Expertise">Expertise</span></a>
-                                                    </nav>
-                                                </section></h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu3-->
-                            <div class="menu-hide">
-                                <img src="images/close_mobile.png" class="img-responsive close_menu">
-                            </div><!--menu-hide-->
-                        </div><!--menu-mbl-->
-                </div><!--bio_menu_mbl-->
+                <div class="products_menu_mobile col-md-12 hidden-lg">
+                        <div class="inner_menu_act"><img src="images/menu.png" class="img-responsive menu_btn"/></div>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="#" class="bio-mbl"><span data-hover="Biography">Biography</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="#" class="client-mbl"><span data-hover="Clients speak">Clients speak</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="#" class="expertise-mbl"><span data-hover="Expertise">Expertise</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>

@@ -53,6 +53,8 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
+            	var current_width = $(window).width();
+            	if(current_width > 766){
                 $('#myContainer').multiscroll({
 //                    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
 //                    anchors: ['first', 'second', 'third'],
@@ -80,6 +82,7 @@
                             $('#tdft').hide();
                         }
                 });
+                 }
                 // $('#tdft').click(function(){
                 //     if($('#right1').hasClass('active')){
                 //        $('#tdft').hide();
@@ -89,7 +92,8 @@
                 //     }
                 // });
                 $(window).on('DOMMouseScroll mousewheel',function(){
-
+					var current_width = $(window).width();
+            		if(current_width > 766){
                     if($('#right1').hasClass('active')){
                        $('#tdft').hide();
                     }
@@ -102,6 +106,7 @@
                     else{
                         $('#bdft').show();
                     }
+                  }
                 });
             });
         </script>
