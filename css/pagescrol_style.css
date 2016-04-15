@@ -43,7 +43,7 @@ Main Components
 -------------------------------- */
 @media only screen and (min-width: 1050px) {
   body[data-hijacking="on"] {
-    overflow: hidden;
+    overflow: hidden !important;
   }
 }
 

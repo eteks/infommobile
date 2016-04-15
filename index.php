@@ -28,11 +28,15 @@
         
         <style>
             body {
-                /*background-color: #000000;*/
-                margin: 0px;
-                overflow: hidden;
+               margin: 0px;
+               overflow: visible;
             }
-
+			@media (min-width: 768px){
+				body {
+	               margin: 0px;
+	               overflow: hidden;
+            	}
+			}
             a {
                 color:#0078ff;
             }
@@ -43,6 +47,44 @@
 
     </head>
     <body>
+    	 <div id="loader-wrapper">
+            <div id="loader"></div>
+
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
+        </div>
+        
+        <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
+        <!-- referred from http://codepen.io/eode9/pen/tdheq-->
+        <div class="text_animation container-fluid">
+            <!-- <div class="text_animation_content_1 col-md-12">
+                <h2 class="frame-2">We bring the technology magic to your doorsteps</h2>
+            </div> --><!--end of text_animation_content_1-->
+            <div class="text_animation_content_2">
+
+                <h2 class="frame-3 col-md-12"><span>WE BRING YOUR CONCEPTS TO LIFE</span></h2>
+            </div><!--end of text_animation_content_2-->
+        </div><!--end of text_animation-->
+        
+        <header>
+            <div class="col-md-11 col-xs-12 header_menu col-sm-12">
+                <div class="col-md-9 col-sm-9 col-xs-6">
+                    <h1>
+                        <a href="index.php">Infom Atomicka<sup>®</sup></a>
+                    </h1>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
+                    <!-- <ul class="social">
+                        <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
+                        <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
+                    </ul><!-End of social-> -->
+                </div>
+            </div>
+            <?php require_once 'nav-menu.php'; ?>
+        </header>
+        
         <script src="js/three.min.js"></script>
         <script src="js/renderers/Projector.js"></script>
         <script src="js/renderers/CanvasRenderer.js"></script>
@@ -201,42 +243,6 @@
 		}
         </script>
 
-        <header>
-            <div class="col-md-11 col-xs-12 header_menu col-sm-12">
-                <div class="col-md-9 col-sm-9 col-xs-6">
-                    <h1>
-                        <a href="index.php">Infom Atomicka<sup>®</sup></a>
-                    </h1>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <!-- http://chipcullen.com/how-to-use-icomoon-and-icon-fonts-part-1-basic-usage/ -->
-                    <!-- <ul class="social">
-                        <li><a href="https://www.facebook.com/InfomAtomicka" target="_blank" aria-hidden="true" class="icon-facebook"></a></li>
-                        <li><a href="https://twitter.com/Infom_Atomicka" aria-hidden="true" class="icon-twitter" target="_blank" ></a></li>
-                    </ul><!-End of social-> -->
-                </div>
-            </div>
-            <?php require_once 'nav-menu.php'; ?>
-        </header>
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-            <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
-        </div>
-        <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
-        <!-- referred from http://codepen.io/eode9/pen/tdheq-->
-        <div class="text_animation container-fluid">
-            <!-- <div class="text_animation_content_1 col-md-12">
-                <h2 class="frame-2">We bring the technology magic to your doorsteps</h2>
-            </div> --><!--end of text_animation_content_1-->
-            <div class="text_animation_content_2">
-
-                <h2 class="frame-3 col-md-12"><span>WE BRING YOUR CONCEPTS TO LIFE</span></h2>
-            </div><!--end of text_animation_content_2-->
-        </div><!--end of text_animation-->
-    </body>
     <script src="js/classie.js" type="text/javascript"></script>
     <script src="js/borderMenu.js" type="text/javascript"></script>
     <script>
@@ -252,4 +258,6 @@
                 }, 9000);
             });
     </script>
+  </body>
 </html>
+

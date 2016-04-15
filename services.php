@@ -51,7 +51,13 @@
         <style>
             .main_wrapper{
                 background: #fff;
-                height: 198px;
+                height: 110px;
+            }
+            @media (min-width: 768px){
+            	.main_wrapper{
+	                background: #fff;
+	                height: 198px;
+            	}
             }
             canvas{
                 z-index: 1000 ;
@@ -332,7 +338,7 @@
         </div><!--End of products-->
         
          <div class="services dn service_mobile hidden-lg">
-           <div class="main_product services_sec0" style="position: absolute;top: 200px;width: 100%;">
+           <div class="main_product services_sec0" style="position: absolute;top: 130px;width: 100%;">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
                             <a><span data-hover="Services">Services</span></a>
@@ -507,23 +513,23 @@
                         <div class="col-md-12 products_common_info">
                             <p>A digital marketing strategy is the tool that assists you in research prospects; purchase decisions and shorten the sales cycle. A good cross channel digital marketing strategy has a high potential to ease your business acquisition, retention and upsells. It keeps you in par with your competitors and helps you compete with large corporations. We use SEO, Social media presence, online advertising (PPC), web analytics, email and mobile media as our tools for establishing the brand identity of your company</p>
                             <div class="products_common_info_img">
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="research_img"></code>
                                     <!-- <span class="research_txt">Research and analysis</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="strategizing_img"></code>
                                     <!-- <span class="strategizing_txt">Strategizing</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="brand_img1"></code>
                                     <!-- <span class="brand_txt1">Brand Identity</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="content_img"></code>
                                     <!-- <span class="content_txt">Content Writing</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="evalution_img"></code>
                                     <!-- <span class="evalution_txt">Evaluation</span> -->
                                 </div><!--col-md-2-->
@@ -557,23 +563,23 @@
                         <div class="col-md-12 products_common_info">
                             <p>Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.We provide the following services under analytics platform</p>
                             <div class="products_common_info_img">
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="enterprise_img"></code>
                                     <!-- <span class="enterprise_txt">Enterprise Data Management</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="bigdata_img"></code>
                                     <!-- <span class="bigdata_txt">Big Data Management</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="intelligence_img"></code>
                                     <!-- <span class="intelligence_txt">Business Intelligence</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="iot_img"></code>
                                     <!-- <span class="iot_txt">IOT (Internet of Things)</span> -->
                                 </div><!--col-md-2-->
-                                <div class="col-md-2 digital_inner_images">
+                                <div class="col-md-2 col-xs-11 digital_inner_images">
                                     <code class="adv_analytics_img"></code>
                                 </div><!--col-md-2-->
                             </div><!--products_common_info_img-->
@@ -617,7 +623,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>

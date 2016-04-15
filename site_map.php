@@ -70,6 +70,15 @@
                     padding: 0;
                 }
             }
+            .main_wrapper {
+        		background: transparent;
+        	}
+            @media (min-width: 768px){
+            	.main_wrapper {
+            		background: #fff;
+            	}
+            }
+            
 
         </style>
     </head>

@@ -15,7 +15,7 @@
 
 }
 header {
-  height:165px;
+  height:110px;
 }
 @media (min-width: 768px){
 	header {
@@ -7738,6 +7738,7 @@ ul.social li a:after {
   margin: 0px 0 0;
   position:relative;
   height: 1660%;
+  top: 110px;
 }
 @media (min-width: 768px){
   .terms_and_conditions {
@@ -7745,6 +7746,7 @@ ul.social li a:after {
     margin: 0px 0 0;
     position:relative;
     height: 100%;
+    top:auto;
   }
 }
 .reachus_form_heading {
@@ -7830,7 +7832,7 @@ ul.social li a:after {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100% !important;
+  height: 124% !important;
   width: 100% !important;
 }
 @media (min-width: 768px){
@@ -7845,7 +7847,7 @@ ul.social li a:after {
   }
 }
 .content_heading_holder {
-  margin: 232px 0 0;
+  margin: 140px 0 0;
   text-align: center;
   width: 100%;
 }
@@ -8830,7 +8832,7 @@ input[readonly] {
 /*---------------------------End Bio graphy page-------------------------*/
 /*--------------Start innovation page------------------------------*/
 .section_holder_innovation {
-  background: transparent;
+  background: url('../images/crew.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8854,7 +8856,7 @@ input[readonly] {
   }
 }
 .content_heading_holder_inno {
-  margin: 232px 0 0;
+  margin: 145px 0 0;
   text-align: center;
   width: 100%;
 }
@@ -9900,7 +9902,7 @@ hr {
   perspective: 800px;
   text-align: center;
   min-width: 225px;
-  font-size: 25px !important;
+  font-size: 20px !important;
   left: 0px !important;
   font-family: Century Gothic;
 }
@@ -10319,7 +10321,7 @@ input[type="checkbox"] {
   }
 }
 .reach_per_Uplod {
-  margin: 28px 0px 0px 0px ;
+  margin: 28px 0px 25px 0px ;
 }
 @media (min-width: 768px){
   .reach_per_Uplod {
@@ -10772,7 +10774,7 @@ input[type="checkbox"] {
     height: 135px;
     position: relative;
     width: 100%;
-    left: 10%;
+    left: 20%;
 }
 @media (min-width: 768px){
   .commerce_img {
@@ -10795,7 +10797,7 @@ input[type="checkbox"] {
   height: 135px;
   width: 100%;
   position: relative;
-  left: 12%;
+  left: 20%;
 }
 @media (min-width: 768px){
   .business_img{
@@ -10890,7 +10892,7 @@ input[type="checkbox"] {
   height: 135px;
   width: 140px;
   position: relative;
-  left: 10%;
+  left: 30%;
 }
 @media (min-width: 768px){
   .responsive_img{
@@ -10908,7 +10910,7 @@ input[type="checkbox"] {
   height: 135px;
   width: 140px;
   position: relative;
-  left: 10%;
+  left: 30%;
 }
 @media (min-width: 768px){
   .interactive_img{
@@ -10926,7 +10928,7 @@ input[type="checkbox"] {
   height: 135px;
   width: 140px;
   position: relative;
-  left: 10%;
+  left: 30%;
 }
 @media (min-width: 768px){
   .seo_img{
@@ -10942,12 +10944,12 @@ input[type="checkbox"] {
   line-height: 7;
 }
 .research_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/Research and analysis.png") no-repeat scroll 0 0 / 105px auto;
-  float: left;
-  height: 124px;
-  width: 300px;
-  position: relative;
-  left: 260%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/Research and analysis.png") no-repeat scroll 0 0 / 105px auto;
+    float: left;
+    height: 124px;
+    width: 170px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .research_img{
@@ -10960,12 +10962,12 @@ input[type="checkbox"] {
   }
 }
 .strategizing_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/Strategizing.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 124px;
-  width: 300px;
-  position: relative;
-  left: 260%;
+ 	background: rgba(0, 0, 0, 0) url("../images/services/Strategizing.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 124px;
+    width: 199px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .strategizing_img{
@@ -10978,12 +10980,12 @@ input[type="checkbox"] {
   }
 }
 .brand_img1{
-  background: rgba(0, 0, 0, 0) url("../images/services/Brand Identity.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 124px;
-  width: 304px;
-  position: relative;
-  left: 150%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/Brand Identity.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 124px;
+    width: 195px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .brand_img1{
@@ -10996,12 +10998,12 @@ input[type="checkbox"] {
   }
 }
 .content_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/content_Writen.png") no-repeat scroll 0 0 / 136px auto;
-  float: left;
-  height: 124px;
-  width: 300px;
-  position: relative;
-  left: 220%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/content_Writen.png") no-repeat scroll 0 0 / 136px auto;
+    float: left;
+    height: 124px;
+    width: 172px;
+    position: relative;
+    left: 22%;
 }
 @media (min-width: 768px){
   .content_img{
@@ -11014,12 +11016,12 @@ input[type="checkbox"] {
   }
 }
 .evalution_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/Evaluation.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 124px;
-  width: 300px;
-  position: relative;
-  left: 260%;
+    background: rgba(0, 0, 0, 0) url("../images/services/Evaluation.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 124px;
+    width: 150px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .evalution_img{
@@ -11032,7 +11034,7 @@ input[type="checkbox"] {
   }
 }
 .digital_inner_images{
-    width: 6.667%;
+    width: 300px;
 }
 @media (min-width: 768px){
 	.digital_inner_images{
@@ -11040,12 +11042,12 @@ input[type="checkbox"] {
 	}
 }
 .enterprise_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/Enterprise_Data_Management.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 140px;
-  width: 300px;
-  position: relative;
-  left: 250%;
+    background: rgba(0, 0, 0, 0) url("../images/services/Enterprise_Data_Management.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .enterprise_img{
@@ -11058,12 +11060,12 @@ input[type="checkbox"] {
   }
 }
 .bigdata_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/BigDataManagement.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 140px;
-  width: 304px;
-  position: relative;
-  left: 250%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/BigDataManagement.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 140px;
+    width: 160px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .bigdata_img{
@@ -11076,12 +11078,12 @@ input[type="checkbox"] {
   }
 }
 .intelligence_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/Business_Intelligence.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 140px;
-  width: 304px;
-  position: relative;
-  left: 160%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/Business_Intelligence.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 140px;
+    width: 161px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .intelligence_img{
@@ -11094,12 +11096,12 @@ input[type="checkbox"] {
   }
 }
 .iot_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/IOT.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 140px;
-  width: 304px;
-  position: relative;
-  left: 250%;
+  	background: rgba(0, 0, 0, 0) url("../images/services/IOT.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 140px;
+    width: 145px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .iot_img{
@@ -11112,12 +11114,12 @@ input[type="checkbox"] {
   }
 }
 .adv_analytics_img{
-  background: rgba(0, 0, 0, 0) url("../images/services/advanced_analytics.png") no-repeat scroll 0 0 / 115px auto;
-  float: left;
-  height: 140px;
-  width: 304px;
-  position: relative;
-  left: 250%;
+ 	background: rgba(0, 0, 0, 0) url("../images/services/advanced_analytics.png") no-repeat scroll 0 0 / 115px auto;
+    float: left;
+    height: 140px;
+    width: 160px;
+    position: relative;
+    left: 30%;
 }
 @media (min-width: 768px){
   .adv_analytics_img{
@@ -11346,7 +11348,7 @@ position: relative;
 .products_common_info_img {
     position: relative;
     top: 30px;
-    left:50px;
+    left:0px;
 }
 @media (min-width: 768px){
   .products_common_info_img {
@@ -12124,8 +12126,8 @@ canvas,#stats{
 .bio_mbl_content{
   overflow: visible !important;
   position: absolute;
-  top: 215px;
-  width: 285px;
+  top: 120px;
+  width: 262px;
   -webkit-overflow-scrolling: touch;
 }
 .section4_mbl{
@@ -12238,22 +12240,22 @@ canvas,#stats{
   background: #333333;
   left: 0;
   z-index: 999;
-  height: 252px;
+  height: 195px;
   top: 0px;
   cursor: pointer;
 }
 .inno_mbl_content{
   overflow: visible !important;
   position: absolute;
-  top: 270px;
+  top: 125px;
   width: 100%;
 }
 .products_menuholder {
   background: #333333 none repeat scroll 0 0;
-  height: 200px;
+  height: 156px;
   left: 0;
   position: absolute;
-  top: -130px;
+  top: -85px;
   width: 100%;
   z-index: 9999;
   cursor: pointer;
@@ -12277,7 +12279,7 @@ html.fp-enabled, .fp-enabled body {
 .service_mbl_content{
   overflow: visible !important;
   position: absolute;
-  top: 200px;
+  top: 130px;
   width: 100%;
 }
 #fp-nav ul{
@@ -12375,8 +12377,8 @@ html.fp-enabled, .fp-enabled body {
 }
 @media (min-width: 768px){
   .sitemap_content{
-    margin-top: 90px;
-    height: 560px;
+    height: 640px;
+    margin-top: 0;
   }
 }
 .menu_btn {
@@ -12386,7 +12388,7 @@ html.fp-enabled, .fp-enabled body {
     cursor: pointer;
 }
 .inner_menu_act {
-    height: 60px;
+    height: 30px;
 }
 
 /* site map design */ 
@@ -12398,9 +12400,9 @@ html.fp-enabled, .fp-enabled body {
      overflow-y: scroll;
      overflow-x:hidden; 
 }
-body{
+/*body{
   overflow-x: hidden; 
-}
+}*/
 .topic{
   
   position: absolute;
@@ -12607,9 +12609,11 @@ body{
   left: 415px;
 }
 .select{
-  position: absolute;
-  top:85px;
-  left: 677px;
+  	font-family: Century Gothic;
+    font-size: 17px;
+    left: 667px;
+    position: absolute;
+    top: 85px;
 }
 .line3{
   position: absolute;

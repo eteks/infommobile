@@ -97,7 +97,7 @@
             }
             .mcusheight {
               height: 300px;
-              min-width: 205px;
+              min-width: 175px;
               overflow-y: auto;
               padding: 10px;
               position: relative;

@@ -1167,7 +1167,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>

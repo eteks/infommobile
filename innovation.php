@@ -717,7 +717,7 @@
                                     </nav>
                                 </div><!-- col-md-6 -->
 
-                                <div class="col-md-12 inno_1_left join_form col-xs-12 padding_right_none">
+                                <div class="col-md-12 inno_1_left join_form col-xs-12">
                                     <?php include("joinus.php");?>
                                 </div><!-- col-md-6 -->
                             </div><!-- slide_content -->
@@ -762,7 +762,7 @@
                         </div>
 
                         <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>

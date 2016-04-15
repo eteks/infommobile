@@ -66,7 +66,7 @@
             <span class="col-md-1 col-xs-12 hidden-lg other" style="margin: 0px 0px 0 !important;">
                 <p>or</p>
             </span>
-            <span class="col-md-3 reach_per_Uplod">
+            <span class="col-md-3 reach_per_Uplod col-xs-12">
                 <div id="upload_spe">
                     <input type="radio" name="atm_uploadspecific" id="atm_uploadspecific" value="Upload_Specification">Upload Specification
                 </div>
