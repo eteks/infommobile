@@ -84,13 +84,13 @@
                     <div class="clear_both"></div>
                 </div>
                 <div class="clear_both"></div>
-                <div class="col-xs-12">
+                <div class="col-xs-12" style="position:fixed; top:0px; background:#fff;">
                     <!--textillate animation from https://github.com/jschr/textillate -->
                     <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 75px 0 0;"><a class="" style="color: #c31118;" href='privacy.php'>Reach Us</a></h1>
                     </div>
                 </div>
                 <?php require_once 'nav-menu.php'; ?>
@@ -105,7 +105,7 @@
 
             </div><!--End of terms_and_conditions-->
         </div><!--End of main_wrapper-->
-        <div class="copyright col-md-12"><p>Copyright ©  2016. All rights are Reserved</p></div>
+        <!-- <div class="copyright col-md-12"><p>Copyright ©  2016. All rights are Reserved</p></div> -->
     </body>
     <script src="js/three.min.js"></script>
     <script src="js/renderers/Projector.js"></script>
@@ -202,7 +202,7 @@
 		if(current_width > 766){
         init();
         animate();
-		
+		}
         function init() {
 
             container = document.createElement('div');
@@ -342,6 +342,6 @@
             renderer.render(scene, camera);
 
         }
-   }
+  
     </script>
 </html>

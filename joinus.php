@@ -13,7 +13,7 @@
             <span class="input__label-content input__label-content--madoka">Name<span style="color:#c31118;">*</span></span>
           </label>
                             </span>
-                            <span style="width: 50%;top: 29%;right: -26%; position: absolute;" id="msg_j_name" class="msg_validate"></span>
+                            <span style="width: 50%;top: 29%;right: -20%; position: absolute;" id="msg_j_name" class="msg_validate"></span>
                             <span class="input input--madoka" style="margin-left: 70px; max-width: 600px;">
                                 <input class="input__field input__field--madoka" type="text" id="atm_j_email" name="atm_j_email" />
                                 <label class="input__label input__label--madoka" for="atm_j_email">
@@ -23,17 +23,17 @@
                                         <span class="input__label-content input__label-content--madoka">Email<span style="color:#c31118;">*</span></span>
                                 </label>
                             </span>
-                            <span style="width: 50%;top: 61%;right: -29%; position: absolute;" id="msg_j_email" class="msg_validate"></span>
+                            <span style="width: 50%;top: 61%;right: -20%; position: absolute;" id="msg_j_email" class="msg_validate"></span>
                             <span class="input input--madoka" style="margin-left: 70px; max-width: 600px;">
                                 <input class="input__field input__field--madoka" type="text" id="atm_j_mobilenum"  onkeyup="NumberOnly(this);" name="atm_j_mobilenum" />
                                 <label class="input__label input__label--madoka" for="atm_j_mobilenum">
                                         <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
                                                 <path d="m0,0l404,0l0,77l-404,0l0,-77z"/>
                                         </svg>
-                                        <span class="input__label-content input__label-content--madoka">Phone Number<span style="color:#c31118;">*</span></span>
+                                        <span class="input__label-content input__label-content--madoka">Mobile Number<span style="color:#c31118;">*</span></span>
                                 </label>
                             </span>
-                            <span style="width: 50%;top: 94%;right: -17%; position: absolute;" id="msg_j_num" class="msg_validate"></span>
+                            <span style="width: 50%;top: 94%;right: -11%; position: absolute;" id="msg_j_num" class="msg_validate"></span>
                         </div>
                         <div class="col-sm-6 join_leftpart">
                             
@@ -46,26 +46,26 @@
                                    <p class="join_note">* Only pdf, doc, docx</p>
                                </span>
                                <input type="text" class="form-control input_upload" id="atm_j_dumy" readonly style="width: 82%; font-family: century gothic;">
-                               <span style="position: absolute; right: 56px; top: 71%;" id="msg_j_file" class="msg_validate"></span>
+                               <span style="position: absolute; right: 56px; top: 60%;" id="msg_j_file" class="msg_validate"></span>
                            </div>
                             
                             <div class="captcha">
                                 <div >
                                            <img src="captcha/captcha_code_file.php?rand=<?php echo rand(); ?>" id='captchaimg' >
-                                           <span style="float:left;"><img style="width:25px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha"   alt="refresh" /><span style="color:#c31118;position: relative; left: 10px;">*</span></span>
+                                           <span style="float:left; cursor: pointer;"><img style="width:25px;float:left;font-size:10px;" src="images/refresh.png" id="refreshcaptcha"   alt="refresh" /><span style="color:#c31118;position: relative; left: 10px;">*</span></span>
                                             
                                 </div>
                                         <input type="text" id="atm_j_captura" name="atm_j_captura" ><br/>
-                                        <div style=" color: #c31118;float: right;font-size: 11px;font-style: italic; margin-right: 38px;margin-top: 113px;" class="msg_validate" id="er_captcha_code"></div>
+                                        <div style=" color: #c31118;float: right;font-size: 11px;font-style: italic; margin-right: 38px;margin-top: 57px;" class="msg_validate" id="er_captcha_code"></div>
                                
                             </div>
                             
                             <div class="col-sm-offset-6 col-sm-6 ms join_btn">
                                 
-                            <input type='button' id='reset' value='reset'  class="submit hvr-round-corners" />
+                            <input type='button' id='reset' value='Reset'  class="submit hvr-round-corners" />
                             <input class="submit hvr-round-corners" value='Submit' type='button' id="joinus_submt" style="margin-right: 6px; margin-bottom: 6px;">
                             </div>
-<input type="hidden" id="action" name="action" value="post" />
+							<input type="hidden" id="action" name="action" value="post" />
                         </div>
                     </div>
 </form>

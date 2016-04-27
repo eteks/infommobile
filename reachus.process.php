@@ -75,11 +75,12 @@ if(!empty($atm_networking) && $atm_hardware!=null)
 
 if($action=='industry')
 {
-  $select = mysql_query("SELECT indus_pk,indus_name FROM industrymst_atm WHERE indus_status='A' AND indus_sector_fk=$atm_sector order by indus_name asc");
-    if(mysql_num_rows($select)>0)
-           echo '<option value="">--Select Industry--</option>';
-        while($fetch = mysql_fetch_array($select))
-            echo "<option value='".$fetch['indus_pk']."'>".$fetch['indus_name']."</option>";  
+    $sql1 = "SELECT indus_pk,indus_name FROM industrymst_atm WHERE indus_status='A' AND indus_sector_fk='".$atm_sector."' order by indus_name asc";
+    $select_ins = mysql_query($sql1);    
+    if(mysql_num_rows($select_ins)>0)
+        echo '<option value="">--Select Industry--</option>';
+    while($fetch = mysql_fetch_array($select_ins))
+        echo "<option value='".$fetch['indus_pk']."'>".$fetch['indus_name']."</option>";  
 }
 if($action=='post')
 {

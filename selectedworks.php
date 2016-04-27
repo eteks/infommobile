@@ -58,7 +58,7 @@
             }
             .section_holder_selectedworks{
                 position: relative;
-                margin: -270px 0px 0px 0px;
+                margin: -352px 0px 0px 0px;
             }
             @media (min-width: 768px) {
                 .section_holder_selectedworks{
@@ -66,6 +66,9 @@
                     margin: 0px;
                 }   
             }
+            .cd-section {
+    			height: 100vh !important;
+			}
         </style>
 
 
@@ -85,7 +88,7 @@
                                         <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                             <section class="color-5">
                                                 <nav class="cl-effect-19" style="text-align: center;">
-                                                    <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                                    <a><span data-hover="Selected works">Selected works</span></a>
                                                 </nav>
                                             </section></h3>
                                     </div>
@@ -136,12 +139,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                             </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 22px;">
                                                 <a href="http://winningmindssolutions.com/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -171,7 +174,7 @@
                                             <li class="SEO hint--bottom"data-hint="SEO"></li>
                                             <li class="Email hint--bottom" data-hint="Email"></li>
                                             <li class="SMS hint--bottom" data-hint="SMS"></li>
-                                            <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                            <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                         </ul>
 
                                         <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -203,7 +206,7 @@
 
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
 
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
 
                                             </ul>
@@ -235,7 +238,7 @@
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -253,7 +256,7 @@
         </section>
         <section class="cd-section section2 content2">
             <div>
-                <div class="selectedwork por_srg">
+                <div class="selectedwork por_srg selected_div2">
                     <div class="row" >
                         <div class="bagrnd hidden-xs">
                             <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
@@ -261,7 +264,7 @@
                                     <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                         <section class="color-5">
                                             <nav class="cl-effect-19" style="text-align: center;">
-                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                                <a><span data-hover="Selected works">Selected works</span></a>
                                             </nav>
                                         </section></h3></div>
                             </h2>
@@ -312,12 +315,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
 
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -343,12 +346,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
 
@@ -375,12 +378,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                             </ul>
 
 
@@ -412,7 +415,7 @@
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
 
 
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
 
@@ -433,13 +436,13 @@
         </section>
         <section class="cd-section section3 content3">
             <div>
-                <div class="selectedwork por_srg">
+                <div class="selectedwork por_srg selected_div3">
                     <div class="row">
                         <div class="bagrnd hidden-xs">
                             <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                 <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;"><h3 class="comon" style="/* width: 12%; */color: rgb(255, 255, 255);      /* width: 10%; */padding: 0px -8px; margin-bottom: 0;"><section class="color-5">
                                             <nav class="cl-effect-19" style="text-align: center;">
-                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                                <a><span data-hover="Selected works">Selected works</span></a>
                                             </nav>
                                         </section></h3></div>
                             </h2>
@@ -498,12 +501,12 @@
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
 
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                             </ul>
 
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -535,7 +538,7 @@
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
 
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
 
                                             </ul>
@@ -564,12 +567,12 @@
                                                 <p class="rec_projecttitle" style="font-size:18px;"><b>Services Offered : </b></p>
                                             </div>
                                             <ul class="services_offered" style=" top: 14px;">
-                                                <li class="PortalSolution hint--bottom" data-hint="PortalSolution"></li>
+                                                <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                                 <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="CreativeDesign"></li>
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -601,7 +604,7 @@
                                                 <li class="SEO hint--bottom"data-hint="SEO"></li>
                                                 <li class="Email hint--bottom" data-hint="Email"></li>
                                                 <li class="Brand_Presentation hint--bottom" data-hint="Brand Presentation"></li>
-                                                <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                                <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
 
                                             </ul>
                                             <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -625,13 +628,13 @@
 
         <section class="cd-section section3 content4">
             <div>
-                <div class="selectedwork por_srg">
+                <div class="selectedwork por_srg selected_div4">
                     <div class="row">
                         <div class="bagrnd hidden-xs">
                             <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                 <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;"><h3 class="comon" style="/* width: 12%; */color: rgb(255, 255, 255);      /* width: 10%; */padding: 0px -8px; margin-bottom: 0;"><section class="color-5">
                                             <nav class="cl-effect-19" style="text-align: center;">
-                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                                <a><span data-hover="Selected works">Selected works</span></a>
                                             </nav>
                                         </section></h3></div>
                             </h2>
@@ -793,13 +796,13 @@
 
         <section class="cd-section section3 content5">
             <div>
-                <div class="selectedwork por_srg">
+                <div class="selectedwork por_srg selected_div5">
                     <div class="row">
                         <div class="bagrnd hidden-xs">
                             <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
                                 <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;"><h3 class="comon" style="/* width: 12%; */color: rgb(255, 255, 255);      /* width: 10%; */padding: 0px -8px; margin-bottom: 0;"><section class="color-5">
                                             <nav class="cl-effect-19" style="text-align: center;">
-                                                <a href="#"><span data-hover="Selected works">Selected works</span></a>
+                                                <a><span data-hover="Selected works">Selected works</span></a>
                                             </nav>
                                         </section></h3></div>
                             </h2>
@@ -870,7 +873,7 @@
                                             <li class="SEO hint--bottom"data-hint="SEO"></li>
                                             <li class="Email hint--bottom" data-hint="Email"></li>
                                             <li class="SMS hint--bottom" data-hint="SMS"></li>
-                                            <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                            <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                         </ul>
 
                                         <div class="box bg-1" style="margin: 0px auto; position: relative; top: 0px;">
@@ -909,7 +912,7 @@
                 <div class="col-md-12 col-xs-12 header_menu">
                     <div class="col-md-9 col-xs-6">
                         <h1>
-                            <a href="index.html">Infom Atomicka<sup>®</sup></a>
+                            <a href="index.php">Infom Atomicka<sup>®</sup></a>
                         </h1>
                     </div>
                     <div class="col-md-3 col-xs-6">
@@ -927,8 +930,8 @@
                         </h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none;color: #c31118; margin: 100px 0 0;">
-                            <a href="selectedworks.php"  class="tlt" style="color: #c31118;">Conceptsbrought2life</a>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 22px;text-decoration: none;color: #c31118; margin: 50px 0 0;">
+                            <a href="selectedworks.php"  class="" style="color: #c31118;">Conceptsbrought2life</a>
                         </h1>
                     </div>
                 </div>
@@ -1242,7 +1245,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
             function init() {
 
                 container = document.createElement('div');
@@ -1382,7 +1385,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+		
         </script>
 
         <script src="js/classie.js" type="text/javascript"></script>

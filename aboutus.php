@@ -84,7 +84,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#"><span data-hover="Biography">Biography</span></a>
+                                                        <a><span data-hover="Biography">Biography</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -124,7 +124,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#"><span data-hover="Clients speak">Clients speak</span></a>
+                                                        <a><span data-hover="Clients speak">Clients speak</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -206,7 +206,7 @@
                                                     <p>
                                                         Being one of their persisting and loyal customers, we feel proud to recommend them for their best services and the technology updates they provide for any IT requirements. We feel satisfied with them in their maintenance and development activities taken up with all our institutions’ web solutions. We wish them ALL THE BEST
                                                     </p>
-                                                    <p>&ndash; Mr Selvaganapathy, Chaiman – Vivekanandha Group of Institutions</p>
+                                                    <p>&ndash; Mr Selvaganapathy, Chairman – Vivekanandha Group of Institutions</p>
                                                 </div>
                                                 <div class="popup-close btn btn-danger popcls">x</div>
                                             </div>
@@ -219,7 +219,7 @@
                                                 <h3>Indira Gandhi College of Arts and Science</h3>
                                                 <div class="content mCustomScrollbar mcusheight" style="height: 200px;">
                                                     <p>
-                                                        We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure."
+                                                        We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure.
                                                     </p>
                                                     <p>&ndash; Dr. B. Kumaran, Principal – IGCAS</p>
                                                 </div>
@@ -233,7 +233,7 @@
                                                 <h3>Winning Minds Solutions</h3>
                                                 <div class="content mCustomScrollbar mcusheight" style="height: 200px;">
                                                     <p>
-                                                        "It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
+                                                        It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
                                                     </p>
                                                     <p>&ndash; S. Ganesh Babu, Founder & CEO – WMS</p>
                                                 </div>
@@ -435,7 +435,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        <a><span data-hover="Expertise">Expertise</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -462,7 +462,7 @@
                                     </ul>
                                 </div>
                             </div><!-- col-md-9 -->
-                            <div class="col-md-6 pn bg_clr col-sm-6">
+                            <div class="col-md-6 pn bg_clr col-xs-12 col-sm-6">
                                 <div class="bio_4_right_content ">
                                     <h3>Apps </h3>
                                     <p>Mobile applications are innovatively and interactively designed to make it user-centric. Whatever the functionality is, we make sure that it is delivered in a very simple way. With customer’s natural concern for security and good performance, we keep up to the high quality output. We support both android and iOS platforms covering the vast arena of customer requirements. The recommended preferable features as follows</p>
@@ -488,7 +488,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        <a><span data-hover="Expertise">Expertise</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -539,7 +539,7 @@
                                             <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                 <section class="color-5">
                                                     <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                        <a><span data-hover="Expertise">Expertise</span></a>
                                                     </nav>
                                                 </section></h3>
                                         </div>
@@ -568,11 +568,11 @@
                                     <div class="clear_both"> </div>
                                 </div>
                             </div><!-- col-md-9 -->
-                            <div class="col-md-6 pn bg_clr col-sm-6">
+                            <div class="col-md-6 pn bg_clr col-xs-12 col-sm-6">
                                 <div class="bio_5_right_content ">
                                     <h3>AIMS</h3>
                                     <p>
-                                        Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
+                                        Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
                                     </p>
 
                                     <ul style="float: left; width: 50%; list-style-type: none; font-style: italic; padding:0 0 0 56px;">
@@ -623,7 +623,7 @@
                                                 <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                     <section class="color-5">
                                                         <nav class="cl-effect-19" style="text-align: center;">
-                                                            <a href="#"><span data-hover="Biography">Biography</span></a>
+                                                            <a><span data-hover="Biography">Biography</span></a>
                                                         </nav>
                                                     </section></h3>
                                             </div>
@@ -663,7 +663,7 @@
                                                 <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                     <section class="color-5">
                                                         <nav class="cl-effect-19" style="text-align: center;">
-                                                            <a href="#"><span data-hover="Clients speak">Clients speak</span></a>
+                                                            <a><span data-hover="Clients speak">Clients speak</span></a>
                                                         </nav>
                                                     </section></h3>
                                             </div>
@@ -746,7 +746,7 @@
                                                         <p>
                                                             Being one of their persisting and loyal customers, we feel proud to recommend them for their best services and the technology updates they provide for any IT requirements. We feel satisfied with them in their maintenance and development activities taken up with all our institutions’ web solutions. We wish them ALL THE BEST
                                                         </p>
-                                                        <p>&ndash; Mr Selvaganapathy, Chaiman – Vivekanandha Group of Institutions</p>
+                                                        <p>&ndash; Mr Selvaganapathy, Chairman – Vivekanandha Group of Institutions</p>
                                                     </div>
                                                     <div class="popup-close btn btn-danger popcls">x</div>
                                                 </div>
@@ -759,7 +759,7 @@
                                                     <h4>Indira Gandhi College of Arts and Science</h4>
                                                     <div class="content mCustomScrollbar mcusheight" style="height: 280px;">
                                                         <p>
-                                                            We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure."
+                                                            We thank Atomicka for making the whole Website designing process streamlined and easy to execute. They were patient in refining everything until we both were satisfied, friendly enough to interact around the clock, creative with a great visual and technical sensibility and efficient in translating our ideas into such an incredible website. From the start, they were very receptive to the needs and objectives of our website. It has been an absolute pleasure to work with them. Working with Atomicka was not only seamless but it far exceeded our expectations. I would recommend anyone to work with this professional and creative designer. It was an amazing experience and we will continue to collaborate with Atomicka in the future for sure.
                                                         </p>
                                                         <p>&ndash; Dr. B. Kumaran, Principal – IGCAS</p>
                                                     </div>
@@ -773,7 +773,7 @@
                                                     <h4>Winning Minds Solutions</h4>
                                                     <div class="content mCustomScrollbar mcusheight" style="height: 260px;">
                                                         <p>
-                                                            "It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
+                                                            It is good experience to work with Atomicka team as they understand the customer's requirement in a structured manner, showing different options, converting the thoughts into reality and meeting our requirements. I would like to partner with them for all my future social media activities. Value for investment and nice professionals to work with .All the best ....
                                                         </p>
                                                         <p>&ndash; S. Ganesh Babu, Founder & CEO – WMS</p>
                                                     </div>
@@ -951,7 +951,7 @@
                                         <span class="mission_txt">Mission</span>
                                         <div class="mission_content">
                                             <ul>
-                                                <li>- To mark our footprint in Digital Marketing & Big Data space with more &nbsp;&nbsp;&nbsp;&nbsp; than 1 crore each by 2017</li>
+                                                <li>- To mark our footprint in Digital Marketing &amp; Big Data space with more than 1 crore each by 2017</li>
                                                 <li>- To make it a obvious service place for our customers </li>
                                                 <li>- To make our employees feel at home</li>
                                             </ul>
@@ -977,7 +977,7 @@
                                                 <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                     <section class="color-5">
                                                         <nav class="cl-effect-19" style="text-align: center;">
-                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                            <a><span data-hover="Expertise">Expertise</span></a>
                                                         </nav>
                                                     </section></h3>
                                             </div>
@@ -1004,7 +1004,7 @@
                                         </ul>
                                     </div>
                                 </div><!-- col-md-9 -->
-                                <div class="col-md-6 pn bg_clr col-sm-6">
+                                <div class="col-md-6 pn bg_clr col-xs-12 col-sm-6">
                                     <div class="bio_4_right_content ">
                                         <h3>Apps </h3>
                                         <p>Mobile applications are innovatively and interactively designed to make it user-centric. Whatever the functionality is, we make sure that it is delivered in a very simple way. With customer’s natural concern for security and good performance, we keep up to the high quality output. We support both android and iOS platforms covering the vast arena of customer requirements. The recommended preferable features as follows</p>
@@ -1030,7 +1030,7 @@
                                                 <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                     <section class="color-5">
                                                         <nav class="cl-effect-19" style="text-align: center;">
-                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                            <a><span data-hover="Expertise">Expertise</span></a>
                                                         </nav>
                                                     </section></h3>
                                             </div>
@@ -1081,7 +1081,7 @@
                                                 <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
                                                     <section class="color-5">
                                                         <nav class="cl-effect-19" style="text-align: center;">
-                                                            <a href="#"><span data-hover="Expertise">Expertise</span></a>
+                                                            <a><span data-hover="Expertise">Expertise</span></a>
                                                         </nav>
                                                     </section></h3>
                                             </div>
@@ -1110,11 +1110,11 @@
                                         <div class="clear_both"> </div>
                                     </div>
                                 </div><!-- col-md-9 -->
-                                <div class="col-md-6 pn bg_clr col-sm-6">
+                                <div class="col-md-6 pn bg_clr col-xs-12 col-sm-6">
                                     <div class="bio_5_right_content ">
                                         <h3>AIMS</h3>
                                         <p>
-                                            Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers’ measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our ' Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
+                                            Infom Atomicka offers AIMS (Analytics & Information Management Solutions) which convert vast data assets into actionable information, helping our customers measure, manage, plan and improve business activities and to help organizations achieve strategic business goals. With a strong focus on “Business Value Delivery”, our Data-analytics platform help you deploy a Timely, Relevant, Accurate, Consistent, Robust and Scalable - Organization wide Business Intelligence Strategy.
                                         </p>
 
                                         <ul style="float: left; width: 100%; list-style-type: none; font-style: italic; padding:0 0 0 45px;  margin: 0;">
@@ -1164,10 +1164,10 @@
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
                     <!--textillate animation from https://github.com/jschr/textillate -->
                     <div class="jumbotron hidden-xs" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='aboutus.php'>About Us</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='biography.php'>About Us</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="" style="color: #c31118;" href='aboutus.php'>About Us</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
@@ -1224,7 +1224,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
 			
 			  	
             function init() {
@@ -1365,7 +1365,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+		
         </script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>

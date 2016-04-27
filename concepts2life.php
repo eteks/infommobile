@@ -171,7 +171,7 @@
                         </div>
                     </div>
 
-                    <div class="ms-section" id="left3" style="background: url(images/aas.jpg); background-size: 100% 100%;z-index:-10000;">
+                    <div class="ms-section" id="left3" style="background: url(images/aas.jpg) 35px 0px no-repeat ;background-size: cover;z-index:-10000;">
                         <h1></h1>
                     </div>
 
@@ -198,7 +198,7 @@
                         </div>
                     </div>
 
-                    <div class="ms-section" id="left5" style="background: url(images/bgi.jpg); background-size: 100% 100%;z-index:-10000;">
+                    <div class="ms-section" id="left5" style="background: url(images/bgi.jpg) no-repeat; background-size: cover;z-index:-10000;">
                         <h1></h1>
                     </div>
 
@@ -211,7 +211,7 @@
                                     <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="PortalSolution hint--bottom" data-hint="PortalSolutions"></li>
+                                    <li class="PortalSolution hint--bottom" data-hint="Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Creative Design"></li>
                                     <li class="SEO hint--bottom" data-hint="SEO"></li>
                                     <li class="SMS hint--bottom" data-hint="SMS"></li>
@@ -227,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="ms-section" id="left7" style="background: url(images/garden.png); background-size: 100% 100%;z-index:-10000;">
+                    <div class="ms-section" id="left7" style="background: url(images/garden.png) 35px 0px no-repeat; background-size: cover;z-index:-10000;">
 
                     </div>
 
@@ -275,10 +275,11 @@
                 </div>
                 <div class="ms-right">
                     <div class="ms-section" id="right1">
-                        <!--                    ;laksd;laskd;lsakd;laks;ld-->
+                        
                     </div>
 
-                    <div class="ms-section" id="right2" style="background: url(images/iocd.jpg); background-size: cover;z-index:-10000;">
+                    <div class="ms-section" id="right2" style="max-height:84% !important;background: url(images/iocd.jpg); background-size: cover; z-index:-10000;">
+                    
                     </div>
 
                     <div class="ms-section" id="right3">
@@ -290,9 +291,9 @@
                                     <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="PortalSolution"></li>
+                                    <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                     <li class="SEO hint--bottom" data-hint="SEO"></li>
-                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                 </ul>
                                 <div class="box bg-1">
                                     <a href="http://ishbone.be/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -300,7 +301,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ms-section" id="right4" style="background: url(images/centac.jpg); background-size: 100% 100%;z-index:-10000;">
+                    <div class="ms-section" id="right4" style="background: url(images/centac.jpg) 0px 0px no-repeat; background-size: cover; z-index:-10000; max-height:91%;">
                     </div>
                     <div class="ms-section" id="right5">
                         <div class="rght_rectal">
@@ -314,8 +315,8 @@
                                     <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
                                     <li class="SEO  hint--bottom" data-hint="SEO"></li>
-                                    <li class="MobileApp hint--bottom" data-hint="MobileApp"></li>
-                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                    <li class="MobileApp hint--bottom" data-hint="Mobile App"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                 </ul>
 
                                 <div class="box bg-1">
@@ -324,7 +325,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ms-section" id="right6" style="background: url(images/xyget.jpg); background-size: 100% 100%;z-index:-10000;">
+                    <div class="ms-section" id="right6" style="background: url(images/xyget.jpg) 35px 0px no-repeat; max-height:97%;background-size: cover;z-index:-10000;">
                     </div>
 
                     <div class="ms-section" id="right7">
@@ -360,7 +361,7 @@
                     </div>
 
 
-                <div class="ms-section" id="right8" style="background: url(images/p3.png); background-size: 100% 100%;z-index:-10000;">
+                <div class="ms-section" id="right8" style="background: url(images/p3.png) 35px 0px no-repeat; max-height:97%; background-size: cover;z-index:-10000;">
                     </div>
 
                  <div class="ms-section" id="right9">
@@ -457,9 +458,9 @@
                                     <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Offered : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="PortalSolution"></li>
+                                    <li class="PortalSolution hint--bottom" data-hint="Portal Solution"></li>
                                     <li class="SEO hint--bottom" data-hint="SEO"></li>
-                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                 </ul>
                                 <div class="box bg-1">
                                     <a href="http://ishbone.be/" target="_blank"><button class="mn button button--rayen button--border-thin button--text-thick button--text-upper button--size-s" data-text="Visit Page"><span>Visit Page</span></button></a>
@@ -510,8 +511,8 @@
                                     <li class="security_Portal_Solution hint--bottom" data-hint="Secure Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Design and Development"></li>
                                     <li class="SEO  hint--bottom" data-hint="SEO"></li>
-                                    <li class="MobileApp hint--bottom" data-hint="MobileApp"></li>
-                                    <li class="maintainace hint--bottom" data-hint="Maintainace"></li>
+                                    <li class="MobileApp hint--bottom" data-hint="Mobile App"></li>
+                                    <li class="maintainace hint--bottom" data-hint="Maintenance"></li>
                                 </ul>
 
                                 <div class="box bg-1">
@@ -533,7 +534,7 @@
                                     <p class="rec_projecttitle" style="font-style: italic; font-size: 16px;"><b>Services Implemented : </b></p>
                                 </div>
                                 <ul class="services_offered">
-                                    <li class="PortalSolution hint--bottom" data-hint="PortalSolutions"></li>
+                                    <li class="PortalSolution hint--bottom" data-hint="Portal Solutions"></li>
                                     <li class="Design_and_Development_Arch_and_Creative_Design_and_Development hint--bottom" data-hint="Creative Design"></li>
                                     <li class="SEO hint--bottom" data-hint="SEO"></li>
                                     <li class="SMS hint--bottom" data-hint="SMS"></li>
@@ -711,7 +712,7 @@
                             <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                         <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
@@ -770,7 +771,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
 				
             function init() {
 
@@ -911,7 +912,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+	
         </script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>

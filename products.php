@@ -50,7 +50,13 @@
         <style>
             .main_wrapper{
                 background: #fff;
-                height: 198px;
+                height: 110px;
+            }
+            @media (min-width: 768px){
+            	.main_wrapper{
+	                background: #fff;
+	                height: 198px;
+            	}
             }
             canvas{
                 z-index: 1000 ;
@@ -169,7 +175,7 @@
                 <div id="psection1" class="section">
                     <div class="col-md-6 pn">
                        <nav class="cl-effect-19">
-                           <a><span data-hover="Cloud based Apps">Cloud based Apps</span></a>
+                           <a><span data-hover="Cloud Apps">Cloud Apps</span></a>
                        </nav>
                    </div>
                    <div class="col-md-6 padding_left_none hidden-xs">
@@ -217,7 +223,7 @@
                 <div id="psection2" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Enterprise Apps - web based">Enterprise Apps - web based</span></a>
+                            <a><span data-hover="Enterprise Apps">Enterprise Apps</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -706,7 +712,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
@@ -720,51 +726,29 @@
 
                     </ul>
                 </div>
-                <div class="bio_menu_mbl col-sm-12 col-md-12 col-lg-12 col-xs-12 hidden-lg">
-                    <div class="inner_menu_act"><img src="images/menu.png" class="img-responsive menu_btn"/></div>
-                        <div class="menu-mbl">
-                             <div class="submenu1">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="concepts2life.php" class="bio-mbl"><span data-hover="Portfolio">Portfolio</span></a>
-                                                    </nav>
-                                                </section>
-                                            </h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu1-->
-                                <div class="submenu2">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: 2px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="services.php" class="client-mbl"><span data-hover="Services">Services</span></a>
-                                                    </nav>
-                                                </section></h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu2-->
-                                <div class="submenu3">
-                                    <h2 style="font-weight: normal" class="selectedwork_h1 slwrk">
-                                        <div class="black" style="width: 10%; float: left; color: rgb(255, 255, 255); z-index: 1; margin-left: -9px;">
-                                            <h3 class="comon" style="color: rgb(255, 255, 255); padding: 0px -8px; margin-bottom: 0;">
-                                                <section class="color-5">
-                                                    <nav class="cl-effect-19" style="text-align: center;">
-                                                        <a href="products.php" class="expertise-mbl"><span data-hover="Products">Products</span></a>
-                                                    </nav>
-                                                </section></h3>
-                                        </div>
-                                    </h2>
-                                </div><!--submenu3-->
-                            <div class="menu-hide">
-                                <img src="images/close_mobile.png" class="img-responsive close_menu">
-                            </div><!--menu-hide-->
-                        </div><!--menu-mbl-->
-                </div><!--bio_menu_mbl-->
+                <div class="products_menu_mobile col-md-12 hidden-lg">
+                        <div class="inner_menu_act"><img src="images/menu.png" class="img-responsive menu_btn"/></div>
+                    <div class="products_menuholder">
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="concepts2life.php"><span data-hover="Portfolio">Portfolio</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="services.php"><span data-hover="Services">Services</span></a>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 pn">
+                            <nav class="cl-effect-19">
+                                <a href="products.php"><span data-hover="Products">Products</span></a>
+                            </nav>
+                        </div>
+                        <div class="menu-hide">
+                            <img src="images/close_mobile.png" class="img-responsive close_menu">
+                        </div><!--menu-hide-->
+                    </div><!--products_menuholder-->
+                </div><!--products_menu_mobile-->
                 <?php require_once 'nav-menu.php'; ?>
             </header>
             <div class="clear_both"></div>
@@ -800,7 +784,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
             function init() {
 
                 container = document.createElement('div');
@@ -940,7 +924,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+	
         </script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>

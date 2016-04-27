@@ -55,7 +55,7 @@
             <div class="bro_comp">The website is best viewed in browser verions of IE 9 and above, Firefox 3.x , Chrome 4.x</div>
         </div>
         
-        <h3 class="text-center enter_menu">Click to <br> Navigate</h3>
+        <h3 class="text-center enter_menu hidden-xs">Click to <br> Navigate</h3>
         <!-- referred from http://codepen.io/eode9/pen/tdheq-->
         <div class="text_animation container-fluid">
             <!-- <div class="text_animation_content_1 col-md-12">
@@ -91,6 +91,7 @@
         <script src="js/libs/stats.min.js"></script>
         <script>
 			var current_width = $(window).width();
+			
             var container, stats;
             var camera, scene, renderer, group, particle;
             var mouseX = 0, mouseY = 0;
@@ -98,12 +99,13 @@
             var windowHalfX = window.innerWidth / 2;
             var windowHalfY = window.innerHeight / 2;
 			if(current_width > 766){
+			
             init();
             setTimeout(animate, 3000)
             //animate();
-			
+			}
             function init() {
-
+				
                 container = document.createElement('div');
                 document.body.appendChild(container);
 
@@ -240,7 +242,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+		
         </script>
 
     <script src="js/classie.js" type="text/javascript"></script>

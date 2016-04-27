@@ -25,12 +25,18 @@
                 <a href="privacy.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='privacy.php'){ echo ' sub_menu_active'; }?>" target="_blank">Privacy Policy</a>
             </div>
             <div>
-                <div class="small_menu second_small_menu">
+                <div class="small_menu second_small_menu visible-lg">
                    <a href="site_map.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='site_map.php'){ echo ' sub_menu_active'; }?>" target="_blank">Site Map</a>
                     <!-- <span class="hvr-buzz-out">Site Map</a> -->
                     <span>|</span>
                     <a href="singlepage-reachus.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='singlepage-reachus.php'){ echo ' sub_menu_active'; }?>" target="_blank">Reach Us</a>
                 </div>
+                
+                <div class="small_menu second_small_menu visible-xs">
+                   <a href="singlepage-reachus.php" class="hvr-buzz-out<?php if(basename($_SERVER['PHP_SELF'])=='singlepage-reachus.php'){ echo ' sub_menu_active'; }?>" target="_blank"
+                   	style="margin: 0px 0px 0px 25px;">Reach Us</a>
+                </div>
+                
                 </p>
         </li>
         <li class="home_menu_line"></li>

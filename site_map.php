@@ -71,13 +71,9 @@
                 }
             }
             .main_wrapper {
-        		background: transparent;
-        	}
-            @media (min-width: 768px){
-            	.main_wrapper {
-            		background: #fff;
-            	}
+            	background: #fff;
             }
+         
             
 
         </style>
@@ -134,7 +130,7 @@
                         <ul class="right_content">
                             <li><a href="aboutus.php" class="web-map font_active" target="_blank"> Web</a></li>
                             <li><a href="aboutus.php" class="apps-map font_active" target="_blank"> Apps</a></li>
-                            <li><a href="aboutus.php" class="learn-map font_active" target="_blank"> E learning</a></li>
+                            <li><a href="aboutus.php" class="learn-map font_active" target="_blank"> E-learning</a></li>
                             <li><a href="aboutus.php" class="infra-map font_active" target="_blank"> Infrastructure</a></li>
                             <li><a href="aboutus.php" class="digital-map font_active" target="_blank"> Digital Marketing</a></li>
                             <li><a href="aboutus.php" class="analytics-map font_active" target="_blank"> AIMS</a></li>          
@@ -144,7 +140,7 @@
                 <div class="col-md-12 clr_font">    
                     <div class="two">
                         <p class="ino"><b><a href="innovation.php" class="font_active" target="_blank"> Innovation Hub</a></b></p>
-                        <img class="img1" src="images/section2.png">
+                        <img class="img1" src="images/section2.jpg">
                         <p class="str"><a href="innovation.php" class="strategists-map font_active" target="_blank"> Strategists</a></p>
                         <p class="adv"><a href="innovation.php" class="advisories-map font_active" target="_blank"> Advisories</a></p>
                         <p class="team"><a href="innovation.php" class="team-map font_active" target="_blank"> Team</a></p>
@@ -160,10 +156,10 @@
                         <p class="pro"><a href="products.php" class="font_active" target="_blank"> Products</a></p>
                         <img class="line2" src="images/line2.png">
                         <img class="line3" src="images/line.png">
-                        <p class="select"><a href="concepts2life.php" class="font_active" target="_blank"> Selected Works</a></p>
+                        <p class="select"><a href="selectedworks.php" class="font_active" target="_blank"> Selected Works</a></p>
                         <ul class="list2"><li><a href="services.php#secondPage" class="webapps-map font_active" target="_blank"> Web Applications</a></li>
                         <li><a href="services.php#3rdPage" class="mblapps-map font_active" target="_blank"> Mobile Apps</a></li>
-                        <li><a href="services.php#4thpage"  class="creative-map font_active" target="_blank"> Creative UX Designer</a></li>
+                        <li><a href="services.php#4thpage"  class="creative-map font_active" target="_blank"> Creative UX Designs</a></li>
                         <li><a href="services.php#5thPage" class="digitalmark-map font_active" target="_blank"> Digital Marketing</a></li>
                         <li><a href="services.php#lastPage" class="aims-map font_active" target="_blank"> AIMS</a></li>
                         </ul>
@@ -191,7 +187,7 @@
                 <div class="col-md-12 clr_font">
                     <div class="four">
                     <p class="reach"><b><a href="#" class="reach-align font_active sitemap_inter_menu"> Reach Us</a></b></p>
-                        <img class="img1" src="images/section4.png">
+                        <img class="img1" src="images/section4.jpg">
                         <ul class="list"><li><a href="singlepage-reachus.php" class="font_active" target="_blank">In Detail</a></li></ul>
                     </div>
                 </div><!--col-md-12-->                   
@@ -212,7 +208,7 @@
                         <ul class="expertise_content">
                             <li><a href="aboutus.php" class="web-map-mbl font_active" target="_blank">Web</a></li>
                             <li><a href="aboutus.php" class="apps-map-mbl font_active" target="_blank">Apps</a></li>
-                            <li><a href="aboutus.php" class="learn-map-mbl font_active" target="_blank">e-Learning</a></li>
+                            <li><a href="aboutus.php" class="learn-map-mbl font_active" target="_blank">E-Learning</a></li>
                             <li><a href="aboutus.php" class="infra-map-mbl font_active" target="_blank">Infrastructure</a></li>
                             <li><a href="aboutus.php" class="digital-map-mbl font_active" target="_blank">Digital Marketing</a></li>
                         </ul>
@@ -314,7 +310,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
             function init() {
 
                 container = document.createElement('div');
@@ -454,7 +450,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+		
         </script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>

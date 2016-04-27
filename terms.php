@@ -44,6 +44,14 @@
                 position: fixed;
             }
         }*/
+       .terms_and_conditions{
+        	top:116px;
+        }
+        @media (min-width: 768px){
+        	.terms_and_conditions{
+        		top:20px;
+        	}
+        }
     </style>
 
     <body>
@@ -77,7 +85,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='terms.php'>Terms of Use</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 60px 0 0;"><a class="tlt" style="color: #c31118;" href='terms.php'>Terms of Use</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 25px;text-decoration: none; margin: 60px 0 0;"><a class="" style="color: #c31118;" href='terms.php'>Terms of Use</a></h1>
                     </div>
                 </div>
                  <?php require_once 'nav-menu.php'; ?>
@@ -177,7 +185,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
             function init() {
 
                 container = document.createElement( 'div' );
@@ -317,6 +325,6 @@
                 renderer.render( scene, camera );
 
             }
-		}
+		
         </script>
 </html>

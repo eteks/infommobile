@@ -377,7 +377,7 @@ $(document).ready(function(){
 	    
     
 
-    $('.close_menu').on('click', function(){
+    $('.close_menu,.bio-mbl,.client-mbl,.expertise-mbl,.strategist-mbl,.advisor-mbl,.team-mbl,.join-mbl').on('click', function(){
         $(".menu-mbl,.menu-holder,.products_menuholder").hide();
     });
 

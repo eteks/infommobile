@@ -142,8 +142,10 @@
             var windowHalfX = window.innerWidth / 2;
             var windowHalfY = window.innerHeight / 2;
 
+            if(current_width > 766){
             init();
             animate();
+			}
 
             function init() {
 

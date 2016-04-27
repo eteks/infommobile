@@ -151,7 +151,7 @@
                 <div id="section1" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Web applications">Web applications</span></a>
+                            <a><span data-hover="Web Applications">Web Applications</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -180,7 +180,7 @@
                 <div id="section2" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Mobile applications">Mobile applications </span></a>
+                            <a><span data-hover="Mobile Apps">Mobile Apps </span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -188,7 +188,7 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-12 products_inner pn">
                         <div class="col-md-12 products_common_info">
-                            <p>Mobile Apps are internet applications basically designed to run on smart phones and other mobile devices. With opportunities in place, we put forth three advantages of using mobile development / apps for your business</p>
+                            <p>Mobile Apps are internet applications basically designed to run on smart phones and other mobile devices. With opportunities in place, we put forth three advantages of using mobile development / apps for your business.</p>
                             <p>The welcoming news for the entrepreneurs is that marketing via mobile app is growing fast with no sign of slowing down. The mobile apps create a direct marketing channel for any business and Infom Atomicka provides you with rich experience of having an interactive app of your business provided to your customers’ right at their fingertips</p>
 
                                 <div class="col-md-4">
@@ -213,7 +213,7 @@
                 <div id="section3" class="section">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Creative UX designing">Creative UX designing</span></a>
+                            <a><span data-hover="Creative UX Designs">Creative UX Designs</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -408,7 +408,7 @@
                 <div class="services_sec1">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Web applications">Web applications</span></a>
+                            <a><span data-hover="Web Apps">Web Apps</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -437,7 +437,7 @@
                 <div class="services_sec2">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Mobile applications">Mobile applications </span></a>
+                            <a><span data-hover="Mobile Apps">Mobile Apps </span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -470,7 +470,7 @@
                 <div class="services_sec3">
                     <div class="col-md-6 pn">
                         <nav class="cl-effect-19">
-                            <a><span data-hover="Creative UX designs">Creative UX designs</span></a>
+                            <a><span data-hover="Creative UX Designs">Creative UX Designs</span></a>
                         </nav>
                     </div>
                     <div class="col-md-6 padding_left_none hidden-xs">
@@ -623,7 +623,7 @@
                         <h1 style="text-align: center; font-family: Century Gothic;font-size: 40px;text-decoration: none; margin: 100px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                     <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
+                        <h1 style="text-align: center; font-family: Century Gothic;font-size: 24px;text-decoration: none; margin: 50px 0 0;"><a class="" style="color: #c31118;" href='concepts2life.php'>Conceptsbrought2life</a></h1>
                     </div>
                 </div>
                 <div class="clear_both"></div>
@@ -705,7 +705,7 @@
 			if(current_width > 766){
             init();
             animate();
-			
+			}
             function init() {
 
                 container = document.createElement('div');
@@ -845,7 +845,7 @@
                 renderer.render(scene, camera);
 
             }
-		}
+		
         </script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>

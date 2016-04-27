@@ -66,10 +66,20 @@
     background: #383838;
     color: white;
     padding: 8px 10px;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 12px;
-    white-space: nowrap; }
-
+    white-space: normal; }
+	@media (min-width: 768px){
+		[data-hint]:after {
+		    content: attr(data-hint);
+		    background: #383838;
+		    color: white;
+		    padding: 8px 10px;
+		    font-size: 12px;
+		    line-height: 12px;
+		    white-space: nowrap; 
+		    }
+	}
 [data-hint='']:before, [data-hint='']:after {
   display: none !important; }
 

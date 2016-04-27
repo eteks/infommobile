@@ -762,7 +762,7 @@
                         </div>
 
                         <div class="jumbotron hidden-lg" style="background: transparent; padding: 0px; margin:0px">
-                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="tlt" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
+                            <h1 style="text-align: center; font-family: Century Gothic;font-size: 30px;text-decoration: none; margin: 50px 0 0;"><a class="" style="color: #c31118;" href='innovation.php'>Innovation Hub</a></h1>
                         </div>
                     </div>
                     <div class="clear_both"></div>
@@ -822,7 +822,7 @@
                 </div>
                 <div class="popup effect-fade-scale" id="Subir" style="top:31%;">
                     <div class="popup-content">
-                      <h3>Subir Basak</h3>
+                      <h3>Dr. Subir Basak</h3>
                       <div class="content mCustomScrollbar mcusheight">
                         <p>Dr. Subir Basak has led Global Commercial Operations and Global Innovation including R&D and Platform technologies in US, EU, and Emerging markets. He  holds an MBA from the Kellogg School of Management, MS and PhD in BioChemical Engineering from Purdue University and BE from Indian Institute of Technology. He was sponsored for Advanced Management training at the Wharton School of Business and has also been profiled in a Harvard Business Review case study related to Innovation, Biotechnology, and Emerging markets.</p>
                         <p>Dr. Subir Basak brings strong leadership and track record in Biotech & Pharma and has built several biotech/pharma/healthcare businesses. He has held increasing levels of responsibility at Merck & Co, Amgen, and Bayer (all in US) and Biocon, Dr Reddys in India. His experience spans Biotech and Pharma Sales and Marketing, Business Development, R&D, Manufacturing and Operations. He holds an MBA from the Kellogg School of Management, MS and PhD in BioChemical Engineering from Purdue University and BE from Indian Institute of Technology. He was sponsored for Advanced Management training at the Wharton School of Business. He has been profiled in a Harvard Business Review case study related to Innovation, Biotechnology, and Emerging markets and is also the Recipient of the Merck Fellowship from Merck and Company, PC Ray Award from the Indian Chemical Engineering Congress, and the Frederick Andrews Board Fellowship from Purdue University.</p>
@@ -863,7 +863,7 @@
 			if(current_width > 766){
 			init();
 			animate();
-			
+			}
 			function init() {
 
 				container = document.createElement( 'div' );
@@ -1002,7 +1002,7 @@
 				renderer.render( scene, camera );
 
 			}
-		}
+		
 		</script>
         <script src="js/classie.js" type="text/javascript"></script>
         <script src="js/borderMenu.js" type="text/javascript"></script>
