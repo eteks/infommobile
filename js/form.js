@@ -506,130 +506,100 @@ $(document).ready(function($){
    return true;
 
    });
-
-    $('#atm_j_name').on('blur',function(){      
-        if($('#atm_j_name').val() !=''){
-            $('#msg_j_name').html("");
-        }     
-    });
-    $('#atm_j_email').on('blur',function(){      
-        if((/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#atm_j_email').val()))){
-            $('#msg_j_email').html("");
-        }
-    });
-    
-    $('#atm_j_mobilenum').on('blur',function(){
-        var mobile = $('#atm_j_mobilenum').val();
-        var pattern = /^\d{10}$/;       
-        if (pattern.test(mobile)) {      
-            $('#msg_j_num').html("");
-        }     
-    });
-    
-    $('#atm_j_file').on('blur',function(){
-        var atm_j_file = $('#atm_j_file').val();     
-        var str = atm_j_file.substring(atm_j_file.lastIndexOf('.') + 1);
-        var ext = str.toLowerCase();    
-        if($.inArray(ext, ['pdf','doc','docx']) > 0 || $('#atm_j_file').val()!= '' ){          
-            $('#msg_j_file').html("");
-        }
-    });
-
-
-   $('#joinus_submt').on('click',function(){
-
-       var atm_j_file = $('#atm_j_file').val();     
+   $(document).on('vclick','#joinus_submt', function(){
+       var atm_j_file = $(this).parents('#joinus').find('#atm_j_file').val();     
        var str = atm_j_file.substring(atm_j_file.lastIndexOf('.') + 1);
        var ext = str.toLowerCase();
 
-        if($('#atm_j_name').val()=='')
+        if($(this).parents('#joinus').find('#atm_j_name').val()=='')
         {
-            $('#msg_j_name').html("Please Enter the Name");
-            $('#atm_j_name').focus();
+            $(this).parents('#joinus').find('#msg_j_name').html("Please Enter the Name");            
+            $(this).parents('#joinus').find('#atm_j_name').focus();
             return false;
-        }   
-        
-        if($('#atm_j_email').val()=='')
+        }  
+        $(this).parents('#joinus').find('#msg_j_name').html("");       
+
+        if($(this).parents('#joinus').find('#atm_j_email').val()=='')
         {
-            $('#msg_j_email').html("Please Enter the Email Id");
-            $('#atm_j_email').focus();
-            return false;
-        }
-        $('#msg_j_email').html("");
-        if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#atm_j_email').val())))
-        {
-            $('#msg_j_email').html("Please Enter the Valid Email Id");
-            $('#atm_j_email').focus();
+            $(this).parents('#joinus').find('#msg_j_email').html("Please Enter the Email Id");
+            $(this).parents('#joinus').find('#atm_j_email').focus();
             return false;
         }
-        $('#msg_j_email').html("");
+        $(this).parents('#joinus').find('#msg_j_email').html("");
+        if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($(this).parents('#joinus').find('#atm_j_email').val())))
+        {
+            $(this).parents('#joinus').find('#msg_j_email').html("Please Enter the Valid Email Id");
+            $(this).parents('#joinus').find('#atm_j_email').focus();
+            return false;
+        }
+        $(this).parents('#joinus').find('#msg_j_email').html("");
      
-        var mobile = $('#atm_j_mobilenum').val();
+        var mobile = $(this).parents('#joinus').find('#atm_j_mobilenum').val();
          // alert(mobile);
          // alert('mob'+$('#atm_j_mobilenum').val());
         var pattern = /^\d{10}$/;       
-        if (!pattern.test(mobile) || $('#atm_j_mobilenum').val()=='') {
-            $('#msg_j_num').html("Please Enter Mobile number with 10 digits");
-            $('#atm_j_mobilenum').focus();
+        if (!pattern.test(mobile) || mobile=='') {
+            $(this).parents('#joinus').find('#msg_j_num').html("Please Enter Mobile number with 10 digits");
+            $(this).parents('#joinus').find('#atm_j_mobilenum').focus();
             return false;
         }        
-        $('#msg_j_num').html("");
+        $(this).parents('#joinus').find('#msg_j_num').html("");
 
-        if($("#atm_j_file").val() == '')
+        if($(this).parents('#joinus').find("#atm_j_file").val() == '')
             {   
-                $("#msg_j_file").html("Please Upload File");
-                $('#atm_j_file').focus();
+                $(this).parents('#joinus').find("#msg_j_file").html("Please Upload File");
+                $(this).parents('#joinus').find('#atm_j_file').focus();
                 return false;
             }
-           $('#msg_j_file').html("");
+           $(this).parents('#joinus').find('#msg_j_file').html("");
 
           if(atm_j_file)
         {
           if($.inArray(ext, ['pdf','doc','docx']) == -1)
            {    
-                $("#msg_j_file").html("Please Upload pdf,doc,docx File Only");
-                $('#atm_j_file').focus();
+                $(this).parents('#joinus').find("#msg_j_file").html("Please Upload pdf,doc,docx File Only");
+                $(this).parents('#joinus').find('#atm_j_file').focus();
                 return false;
 
-                if ($('#atm_j_captura').val()=='')
+                if ($(this).parents('#joinus').find('#atm_j_captura').val()=='')
                 {
-                    $('#er_captcha_code').html("Please Enter the Security Code");
-                    $('#atm_j_captura').focus();
+                   $(this).parents('#joinus').find('#er_captcha_code').html("Please Enter the Security Code");
+                    $(this).parents('#joinus').find('#atm_j_captura').focus();
                     return false;
                 }
-                $('#er_captcha_code').html("");
+                $(this).parents('#joinus').find('#er_captcha_code').html("");
 
-                if($("#er_captcha_code").html()=='Invalid Security Code')
+                if($(this).parents('#joinus').find("#er_captcha_code").html()=='Invalid Security Code')
                     {
                         alert("Please Enter Valid Security Code");
-                        $("#atm_j_captura").val("");
-                        $("#er_captcha_code").html("");
-                        $("#atm_j_captura").focus();
+                        $(this).parents('#joinus').find("#atm_j_captura").val("");
+                        $(this).parents('#joinus').find("#er_captcha_code").html("");
+                        $(this).parents('#joinus').find("#atm_j_captura").focus();
                         return false;
                     }              
            }
         
         }
-        $('#msg_j_file').html("");
-        if ($('#atm_j_captura').val()=='')
+        $(this).parents('#joinus').find('#msg_j_file').html("");
+        if ($(this).parents('#joinus').find('#atm_j_captura').val()=='')
         {
-            $('#er_captcha_code').html("Please Enter the Security Code");
-            $('#atm_j_captura').focus();
+            $(this).parents('#joinus').find('#er_captcha_code').html("Please Enter the Security Code");
+            $(this).parents('#joinus').find('#atm_j_captura').focus();
             return false;
         }
         //$('#er_captcha_code').html("");
 
-        if($("#er_captcha_code").html()=='Invalid Security Code')
+        if($(this).parents('#joinus').find("#er_captcha_code").html()=='Invalid Security Code')
             {
                 alert("Please Enter Valid Security Code");
-                $("#atm_j_captura").val("");
-                $("#er_captcha_code").html("");
-                $("#atm_j_captura").focus();
+                $(this).parents('#joinus').find("#atm_j_captura").val("");
+                $(this).parents('#joinus').find("#er_captcha_code").html("");
+                $(this).parents('#joinus').find("#atm_j_captura").focus();
                 return false;
             }
 
 
-            $("#mask_j_us ").mask("Waiting...");
+           $(this).parents('#joinus').find("#mask_j_us ").mask("Waiting...");
             var m_data = new FormData();
             m_data.append( 'atm_j_name', $('input[name=atm_j_name]').val());
             m_data.append( 'atm_j_email', $('input[name=atm_j_email]').val());
@@ -647,7 +617,8 @@ $(document).ready(function($){
               type: 'POST',
               dataType:'json',
               success: function(response){
-                   $('#reset').click();
+                    alert($(this).parents('#joinus').find('#reset').html());
+                   $(this).parents('#joinus').find('#reset').click();
                    $("#mask_j_us ").unmask();
                    $(".msg_ack").show();
                    $(".msg_ack").html(response.text);
@@ -655,6 +626,33 @@ $(document).ready(function($){
               }
             });
 
+    });
+    $(document).on('blur','#atm_j_name',function(){     
+        if($(this).val() !=''){
+             $(this).parents('#joinus').find('#msg_j_name').html("");             
+        }      
+    });
+    $(document).on('blur','#atm_j_email',function(){
+        if((/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#atm_j_email').val()))){
+            $(this).parents('#joinus').find('#msg_j_email').html("");
+        }
+    });
+    
+   $(document).on('blur','#atm_j_mobilenum',function(){
+        var mobile = $(this).parents('#joinus').find('#atm_j_mobilenum').val();
+        var pattern = /^\d{10}$/;       
+        if (pattern.test(mobile)) {      
+            $(this).parents('#joinus').find('#msg_j_num').html("");
+        }     
+    });
+    
+     $(document).on('blur','#atm_j_file',function(){
+        var atm_j_file = $(this).parents('#joinus').find('#atm_j_file').val();     
+        var str = atm_j_file.substring(atm_j_file.lastIndexOf('.') + 1);
+        var ext = str.toLowerCase();    
+        if($.inArray(ext, ['pdf','doc','docx']) > 0 || $(this).parents('#joinus').find('#atm_j_file').val()!= '' ){          
+            $(this).parents('#joinus').find('#msg_j_file').html("");
+        }
     });
 
   $('#atm_uploadspecific').mouseover(function() {

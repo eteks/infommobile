@@ -1081,10 +1081,11 @@
 
         <script>
         $(function() {
-            $('#reset').click(function() {
-                $(':input','#myform')
+            $(document).on('vclick','#reset', function() {
+                alert('comes');
+                $(this).parents('#joinus').find(':input','#joinus')
                    .not(':button, :submit, :reset, :hidden')
-                   .val('')
+                   .val("")
                    .removeAttr('checked')
                    .removeAttr('selected');
             });
