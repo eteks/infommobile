@@ -207,7 +207,7 @@ APPCOMP;
     if(!$send_mail)
     {
         //If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail!'));
         die($output);
     }else{
         $output = json_encode(array('type'=>'message', 'text' => 'Successfully Posted'));
